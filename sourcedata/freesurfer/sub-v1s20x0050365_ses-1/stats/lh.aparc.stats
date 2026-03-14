@@ -1,0 +1,87 @@
+# Table of FreeSurfer cortical parcellation anatomical statistics 
+# 
+# CreationTime 2026/03/12-20:25:59-GMT
+# generating_program mris_anatomical_stats
+# cvs_version 7.3.2
+# mrisurf.c-cvs_version 7.3.2
+# cmdline mris_anatomical_stats -th3 -mgz -noglobal -cortex ../label/lh.cortex.label -f ../stats/lh.aparc.stats -b -a ../label/lh.aparc.annot -c ../label/aparc.annot.ctab sub-v1s20x0050365_ses-1 lh white 
+# sysname  Linux
+# hostname dna056
+# machine  x86_64
+# user     oesteban
+# 
+# SUBJECTS_DIR /out/sourcedata/freesurfer
+# anatomy_type surface
+# subjectname sub-v1s20x0050365_ses-1
+# hemi lh
+# AnnotationFile ../label/lh.aparc.annot
+# AnnotationFileTimeStamp 2026/03/12 20:45:59
+# Measure Cortex, NumVert, Number of Vertices, 106592, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 73849.9, mm^2
+# Measure Cortex, MeanThickness, Mean Thickness, 2.50926, mm
+# NTableCols 10
+# TableCol  1 ColHeader StructName
+# TableCol  1 FieldName Structure Name
+# TableCol  1 Units     NA
+# TableCol  2 ColHeader NumVert
+# TableCol  2 FieldName Number of Vertices
+# TableCol  2 Units     unitless
+# TableCol  3 ColHeader SurfArea
+# TableCol  3 FieldName Surface Area
+# TableCol  3 Units     mm^2
+# TableCol  4 ColHeader GrayVol
+# TableCol  4 FieldName Gray Matter Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader ThickAvg 
+# TableCol  5 FieldName Average Thickness
+# TableCol  5 Units     mm
+# TableCol  6 ColHeader ThickStd
+# TableCol  6 FieldName Thickness StdDev
+# TableCol  6 Units     mm 
+# TableCol  7 ColHeader MeanCurv
+# TableCol  7 FieldName Integrated Rectified Mean Curvature
+# TableCol  7 Units     mm^-1
+# TableCol  8 ColHeader GausCurv 
+# TableCol  8 FieldName Integrated Rectified Gaussian Curvature
+# TableCol  8 Units     mm^-2
+# TableCol  9 ColHeader  FoldInd
+# TableCol  9 FieldName  Folding Index 
+# TableCol  9 Units      unitless 
+# TableCol 10 ColHeader CurvInd
+# TableCol 10 FieldName Intrinsic Curvature Index
+# TableCol 10 Units     unitless
+# ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
+bankssts                                 1515   1040   2429  2.559 0.393     0.109     0.020       12     1.1
+caudalanteriorcingulate                   992    693   2061  2.498 0.869     0.127     0.024       11     1.2
+caudalmiddlefrontal                      2764   1909   5636  2.734 0.541     0.114     0.021       23     2.5
+cuneus                                   1709   1199   2418  1.941 0.542     0.153     0.034       23     2.7
+entorhinal                                545    352   1206  2.629 1.013     0.114     0.027        6     0.7
+fusiform                                 4275   2962   8175  2.531 0.619     0.130     0.032       52     5.8
+inferiorparietal                         5101   3534   9500  2.410 0.600     0.122     0.024       52     5.4
+inferiortemporal                         4201   2864   9102  2.688 0.823     0.128     0.031       50     5.8
+isthmuscingulate                         1282    918   2719  2.778 0.808     0.124     0.026       15     1.6
+lateraloccipital                         5886   4043   8549  1.943 0.611     0.138     0.032       79     7.7
+lateralorbitofrontal                     4123   2901   8188  2.726 0.633     0.128     0.028       47     4.9
+lingual                                  3488   2475   4294  1.725 0.531     0.136     0.031       41     4.9
+medialorbitofrontal                      2842   1960   5438  2.579 0.790     0.122     0.030       34     3.3
+middletemporal                           3775   2724   9243  2.805 0.653     0.129     0.026       48     4.1
+parahippocampal                          1212    763   2294  2.665 0.663     0.083     0.012        7     0.4
+paracentral                              1828   1185   2877  2.342 0.735     0.103     0.019       11     1.5
+parsopercularis                          1828   1247   3380  2.483 0.556     0.106     0.019       15     1.4
+parsorbitalis                             952    699   2478  2.797 0.584     0.141     0.035       14     1.2
+parstriangularis                         1961   1360   4176  2.707 0.578     0.122     0.022       22     1.8
+pericalcarine                            1488   1041   1272  1.462 0.422     0.142     0.032       17     2.1
+postcentral                              5074   3366   7197  1.937 0.558     0.111     0.019       43     4.1
+posteriorcingulate                       1317    921   2324  2.363 0.661     0.125     0.025       18     1.4
+precentral                               6955   4446  12415  2.576 0.572     0.104     0.019       48     5.6
+precuneus                                4423   3105   8010  2.394 0.617     0.121     0.024       44     4.2
+rostralanteriorcingulate                 1027    808   2842  2.933 0.817     0.158     0.033       19     1.9
+rostralmiddlefrontal                     6590   4910  14358  2.600 0.646     0.139     0.030       90     8.6
+superiorfrontal                          9533   6576  23448  3.141 0.608     0.119     0.025       85    10.0
+superiorparietal                         5865   4124   8906  2.052 0.566     0.128     0.026       59     6.9
+superiortemporal                         5062   3385  10340  2.659 0.724     0.105     0.018       42     4.0
+supramarginal                            4605   3250   9385  2.622 0.590     0.132     0.026       52     5.3
+frontalpole                               293    228   1001  3.207 0.598     0.175     0.045        6     0.5
+temporalpole                              588    476   2242  3.266 0.643     0.135     0.027        8     0.7
+transversetemporal                        579    402    693  1.790 0.444     0.129     0.035        5     0.9
+insula                                   2914   1983   5872  3.098 0.796     0.108     0.026       25     3.0
